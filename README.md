@@ -16,8 +16,8 @@ To run this project, you need the following:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/tweet-search-block-bot.git
-   cd tweet-search-block-bot
+   git clone https://github.com/mertcanureten/x-tweet-blocker.git
+   cd x-tweet-blocker
    ```
 
 2. **Install the required dependencies**:
@@ -48,7 +48,7 @@ To run this project, you need the following:
    You can run the script from the command line with the following arguments:
 
    ```bash
-   python tweet_search_block.py --query "partial tweet text" --threshold 0.5
+   python main.py --query "partial tweet text" --threshold 0.5
    ```
 
    - `--query`: A part of the tweet text you want to search for.
@@ -70,7 +70,7 @@ To run this project, you need the following:
 Here’s an example of how to run the script:
 
 ```bash
-python tweet_search_block.py --query "Hello World" --threshold 0.6
+python main.py --query "Hello World" --threshold 0.6
 ```
 
 This will search for tweets containing "Hello World" and block users if their tweet text has a similarity of 60% or more.
