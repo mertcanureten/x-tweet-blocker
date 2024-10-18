@@ -25,7 +25,7 @@ To run this project, you need the following:
    Install the required Python libraries by running:
 
    ```bash
-   pip install selenium webdriver-manager argparse difflib
+   pip install -r requirements.txt
    ```
 
 3. **Setup ChromeDriver**:
